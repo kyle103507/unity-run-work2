@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Runtime.dll:
     - UnityEngine.Experimental.U2D.Animation.SpriteResolver
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -13,14 +12,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -45,6 +36,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 74
@@ -62,23 +55,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 580}
+      Script: {instanceID: 220}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 15196}
     - Class: 114
-      Script: {instanceID: 11456}
+      Script: {instanceID: 15482}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 15536}
     - Class: 114
-      Script: {instanceID: 12170}
+      Script: {instanceID: 16188}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 16192}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 16880}
     - Class: 114
-      Script: {instanceID: 13624}
+      Script: {instanceID: 17620}
     - Class: 114
-      Script: {instanceID: 14234}
+      Script: {instanceID: 18224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -86,6 +79,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
